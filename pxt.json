@@ -2,8 +2,7 @@
     "name": "MyFighter.DLC.Bat",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "fightextension": "github:cubicbird/fightextension#v0.2.4"
+        "device": "*"
     },
     "files": [
         "main.blocks",
@@ -14,6 +13,9 @@
     "testFiles": [
         "test.ts"
     ],
+    "testDependencies": {
+        "fightextension": "github:cubicbird/fightextension#v0.2.4"
+    },
     "targetVersions": {
         "target": "1.4.45",
         "targetId": "arcade"
