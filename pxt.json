@@ -3,7 +3,7 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "fightextension": "github:cubicbird/fightextension#v0.2.3"
+        "fightextension": "github:cubicbird/fightextension#v0.2.4"
     },
     "files": [
         "main.blocks",
